@@ -10,7 +10,7 @@ call "./../git/bin/git.exe" init
 call "./../git/bin/git.exe" config core.sparseCheckout true
 call "./../git/bin/git.exe" sparse-checkout init
 call "./../git/bin/git.exe" sparse-checkout set tools/
-call "./../git/bin/git.exe" remote add origin https://github.com/civ13/civ14-od-client
+call "./../git/bin/git.exe" remote add origin https://github.com/taislin/civ14-od-client
 call "./../git/bin/git.exe" branch --set-upstream-to=origin/master master
 call "./../git/bin/git.exe" fetch --depth=1 origin master
 call "./../git/bin/git.exe" pull origin master
@@ -25,7 +25,7 @@ call "./../tools/git/bin/git.exe" init
 call "./../tools/git/bin/git.exe" config core.sparseCheckout true
 call "./../tools/git/bin/git.exe" sparse-checkout init
 call "./../tools/git/bin/git.exe" sparse-checkout set app/Resources/ app/RobustToolbox/ app/bin/
-call "./../tools/git/bin/git.exe" remote add origin https://github.com/civ13/civ13-od-launcher
+call "./../tools/git/bin/git.exe" remote add origin https://github.com/taislin/civ13-od-launcher
 call "./../tools/git/bin/git.exe" branch --set-upstream-to=origin/master master
 call "./../tools/git/bin/git.exe" fetch --depth=1 origin master
 call "./../tools/git/bin/git.exe" pull origin master
