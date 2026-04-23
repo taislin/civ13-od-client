@@ -2,3 +2,4 @@ launcher.bat
 tools/scripts/
 tools/git/
 app/bin/Content.Client/libcef.dll
+_test/
