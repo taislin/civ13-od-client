@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "license": "AGPLv3",
+  "copyright": "Civ13 Team",
+  "size": {
+    "x": 480,
+    "y": 480
+  },
+  "states": [
+    {
+      "name": "background",
+      "delays": [
+        [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      ]
+    }
+  ]
+}

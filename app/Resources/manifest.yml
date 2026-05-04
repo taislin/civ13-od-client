@@ -2,6 +2,6 @@ modules:
 - Robust.Client.WebView
 assemblyPrefix: OpenDream
 windowIconSet: /OpenDream/Logo/icon
-splashLogo: /OpenDream/Logo/logo.png
-defaultWindowTitle: OpenDream
+splashLogo: /OpenDream/Logo/logo_civ.png
+defaultWindowTitle: Civ13 - OpenDream Client
 multiWindow: true
